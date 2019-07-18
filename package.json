@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "aem-build": "aem-build.js"
+    "aem-build": "node aem-build.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/curtistimson/gulpconsume/issues"
   },
-  "homepage": "https://github.com/curtistimson/gulpconsume#readme"
+  "homepage": "https://github.com/curtistimson/gulpconsume#readme",
+  "devDependencies": {
+    "gulppkg": "git+https://github.com/curtistimson/gulppkg.git#1.5.0"
+  }
 }
